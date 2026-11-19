@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: #f4f6f9;
+  color: #1a1f2b;
+}
+.page { max-width: 1280px; margin: 0 auto; padding: 24px; }
+header { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+h1 { margin: 0; font-size: 26px; color: #1f3a5f; }
+.sub { margin: 4px 0 0; color: #5b6475; font-size: 14px; }
+h2 { margin: 0 0 12px; font-size: 15px; color: #1f3a5f; text-transform: uppercase; letter-spacing: 0.5px; }
+.kpis { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin: 20px 0; }
+.kpi { background: #1f3a5f; color: #fff; border-radius: 10px; padding: 14px 16px; }
+.kpi-label { font-size: 12px; opacity: 0.8; }
+.kpi-value { font-size: 22px; font-weight: 700; margin-top: 4px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.card { background: #fff; border-radius: 12px; padding: 18px; box-shadow: 0 1px 3px rgba(16, 24, 40, 0.08); }
+.note { color: #6b7280; font-size: 12px; margin: 10px 0 0; }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+th { text-align: left; color: #5b6475; font-weight: 600; border-bottom: 1px solid #e5e7eb; padding: 6px 4px; }
+td { border-bottom: 1px solid #f0f2f5; padding: 6px 4px; }
+.r { text-align: right; }
+.neg { color: #c0392b; }
+.pos { color: #1e8449; }
+.btn {
+  background: #e67e22; color: #fff; border: 0; border-radius: 8px; padding: 10px 16px;
+  font-weight: 600; cursor: pointer; text-decoration: none; display: inline-block; margin-top: 8px;
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+.slider { display: flex; align-items: center; gap: 12px; margin-bottom: 8px; font-size: 14px; }
+.slider input { flex: 1; accent-color: #e67e22; }
+.pnl { display: flex; gap: 24px; flex-wrap: wrap; font-size: 14px; margin-top: 8px; }
+textarea { width: 100%; border: 1px solid #d1d5db; border-radius: 8px; padding: 10px; font: inherit; font-size: 13px; }
+.mps { margin-top: 12px; font-size: 14px; }
+.impact { background: #fef5ec; border-left: 3px solid #e67e22; padding: 8px 12px; }
+.error { color: #c0392b; }
+footer { color: #6b7280; font-size: 12px; margin-top: 24px; text-align: center; }
+code { background: #eef2f7; padding: 1px 5px; border-radius: 4px; }
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr; }
+  .kpis { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,8 @@
+name,type,coupon_pct,maturity_years,spread_bp,face_rm
+MGS 03/29,MGS,3.237,2.32,0,10000000
+MGS 06/31,MGS,4.232,4.58,0,15000000
+MGS 04/33,MGS,3.844,6.41,0,10000000
+MGS 10/36,MGS,3.920,9.91,0,10000000
+GII 10/31 (assumed coupon),GII sukuk,3.600,4.92,3,10000000
+AAA corporate sukuk (hypothetical),AAA sukuk,4.000,5.00,40,8000000
+AA corporate bond (hypothetical),AA corporate,4.300,7.00,70,7000000
